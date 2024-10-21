@@ -1,0 +1,14 @@
+.divAgendamentos{
+    margin: 3rem;
+}
+
+.divAgendamentos h1{
+    color: #132D94;
+}
+
+.containerAgendamentos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    gap: 20px; /* Espaçamento entre os itens (opcional) */
+}
+  

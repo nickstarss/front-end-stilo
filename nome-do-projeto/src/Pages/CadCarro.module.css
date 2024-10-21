@@ -1,0 +1,58 @@
+.divCadastro{
+    margin: 3rem;
+}
+
+.divCadFlex{
+    display: flex;
+    gap: 5rem;
+}
+
+.divCadastro h1{
+    color: #132D94;
+}
+
+.left, .right {
+    flex: 1; 
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.inputCarro{
+    margin-top: 2rem;
+}
+
+.inputCarro p{
+    font-weight: bold;
+    color: #54595F;
+}
+
+.inputCarro input{
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 2px solid #03C0FF;
+    outline: none;
+    transition: 0.3s;
+}
+
+.inputCarro input:focus{
+    border: 2px solid #132D94 !important;
+}
+
+.buttonCadCarro{
+    margin-top: 4.6rem;
+    width: 105%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #03C0FF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonCadCarro:hover{
+    background-color: #132D94;
+}
