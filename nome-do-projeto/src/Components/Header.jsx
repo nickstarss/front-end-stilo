@@ -8,7 +8,7 @@ export default function Header(){
         <div className={style.header}>
             <img src={logo}/>
             <div className={style.textHeader}>
-                  <Link to="/">Home</Link>
+                  <Link to="/home">Home</Link>
                   <Link to="/cadastroCarro">Cad. Carro</Link>
                   <Link to="/Agendamentos">Agendamentos</Link>
                   <Link to="/">Novo Agend.</Link>
