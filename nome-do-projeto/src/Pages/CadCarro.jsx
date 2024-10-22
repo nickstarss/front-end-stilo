@@ -1,4 +1,5 @@
 import Header from "../Components/Header"
+import Footer from "../Components/Footer";
 import style from "./CadCarro.module.css"
 
 export default function CadCarro(){
@@ -46,10 +47,9 @@ export default function CadCarro(){
                         <button className={style.buttonCadCarro}>Cadastrar</button>
                     </div>
                 </div>
-
-
-                
             </div>
+
+            <Footer/>
 
         </>
     )

@@ -1,4 +1,5 @@
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import AgendamentoBox from "../Components/agendamentoBox";
 import style from "./Agendamentos.module.css"
 
@@ -57,6 +58,7 @@ export default function Agendamentos(){
                     ))}
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

@@ -1,0 +1,67 @@
+.divFooter{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 1rem;
+}
+
+.leftFooter, .middleFooter, .rightFooter {
+    flex: 1; /* Faz com que todas as divs ocupem espaços iguais */
+}
+
+.middleFooter button, .rightFooter button{
+    margin-top: 1rem;
+    border: none;
+    padding: 0.7rem 1rem;
+    background-color: #03C0FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.middleFooter button:hover, .rightFooter button:hover{
+    background-color: #132D94;
+}
+
+.redeSocial{
+    display: flex;
+}
+
+.redeSocial img{
+    margin-right: 3px;
+}
+
+.redeSocial p{
+    color: #BABABA;
+}
+
+.middleFooterSubdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.middleFooterSubdiv a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-bottom: 0.4rem;
+}
+
+.middleFooterSubdiv a:hover{
+    color: #03C0FF;
+    text-decoration: underline;
+}
+
+.rightFooterSubdiv{
+    display: flex;
+}
+
+.rightFooterSubdiv img{
+    margin-right: 3px;
+}
+
+.middleFooter h2, .rightFooter h2{
+    color: #132D94;
+}

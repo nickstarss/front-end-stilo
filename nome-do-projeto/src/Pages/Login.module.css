@@ -47,6 +47,15 @@
     transition: 0.3s;
 }
 
+.contentSubdiv select{
+    width: 27rem;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 2px solid #03C0FF;
+    outline: none;
+    transition: 0.3s;
+}
+
 .contentSubdiv input:focus{
     border: 2px solid #132D94 !important;
 }
